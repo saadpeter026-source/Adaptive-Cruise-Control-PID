@@ -5,3 +5,5 @@ In this project, we will analyze the implementation of Adaptive Cruise Control (
 ## High-Level Control Diagram.
 <img width="963" height="431" alt="image" src="https://github.com/user-attachments/assets/838e9d98-fc8f-45b4-a922-59ee1013a75f" />
 
+## Subsystem 1: Stateflow Logic
+
