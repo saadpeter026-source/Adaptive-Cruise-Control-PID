@@ -18,4 +18,4 @@ Resume: This state resets the target_speed to the stored_speed previously saved 
 
 OFF / Cancel: The system enters this state to set the target_speed and active_flag to 0, effectively disabling the cruise control.
 
-Safety: The transition to the OFF state has a [brake == 1] condition, ensuring the brake signal always has priority to shut down the system.
+Safety: The transition to the OFF state has a [brake == 1] condition, ensuring the brake signal always has priority to shut down the system when user presses the brake on the vehicle.
