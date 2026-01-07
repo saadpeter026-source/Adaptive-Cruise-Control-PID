@@ -26,12 +26,3 @@ The following table defines the specific input values used to trigger state tran
 | $3$ | **Decelerate** | Triggers the **Decel** state to decrement the `target_speed`. |
 | $4$ | **Resume** | Transitions to the **Resume** state to restore the previously `stored_speed`. |
 
----
-
-### Transition Logic: The Importance of $btn == 0$
-
-In this state machine, the condition $btn == 0$ acts as a "Return to Idle" trigger. 
-
-* **Release Mechanism**: When the user stops pressing a physical button, the input signal returns to $0$.
-* **Holding Velocity**: This transition forces the system back into the **SET** state, which stops the incremental change of `target_speed` and maintains the current velocity.
-* **System Stability**: Without this logic, the system would remain stuck in the **Accel** or **Decel** states, causing the target speed to change indefinitely.
