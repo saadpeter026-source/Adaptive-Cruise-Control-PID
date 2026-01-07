@@ -12,3 +12,6 @@ F_g: Force due to road grade (gravity)
 F_N: Normal Force
 
 W: Vehicle Weight (m * g)
+
+## Mathematical Equation
+$$ma = u - F_{drag} - F_{g}$$
