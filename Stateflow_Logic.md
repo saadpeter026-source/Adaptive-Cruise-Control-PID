@@ -3,7 +3,7 @@
 
 ## Overview
 
-### State Descriptions
+## State Descriptions
 
 | State / Logic | Description |
 | :--- | :--- |
@@ -14,7 +14,7 @@
 | **OFF / Cancel** | The system enters this state to set the `target_speed` and `active_flag` to $0$, effectively disabling the cruise control. |
 | **Safety** | The transition to the OFF state has a $[brake == 1]$ condition, ensuring the brake signal always has priority to shut down the system. |
 
-### Control Input Mapping (btn)
+## Control Input Mapping (btn)
 
 The following table defines the specific input values used to trigger state transitions within the Stateflow logic:
 
@@ -26,7 +26,7 @@ The following table defines the specific input values used to trigger state tran
 | $3$ | **Decelerate** | Triggers the **Decel** state to decrement the `target_speed`. |
 | $4$ | **Resume** | Transitions to the **Resume** state to restore the previously `stored_speed`. |
 
-### Brake Signal Mapping
+## Brake Signal Mapping
 
 The brake input acts as a high-priority safety override or emergency brake for the entire ACC system.
 
