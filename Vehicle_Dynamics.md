@@ -42,13 +42,13 @@ $$a = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
 
 ### Model Parameters
 
-The following physical values are used in the Simulink plant model to define the ego vehicle's characteristics:
+The following physical values from the MATLAB workspace define the vehicle's characteristics:
 
 | Parameter | Symbol | Value | Unit |
 | :--- | :---: | :---: | :---: |
-| **Vehicle Mass** | $m$ | [Value] | $kg$ |
-| **Air Density** | $\rho$ | [Value] | $kg/m^3$ |
-| **Drag Coefficient** | $C_{d}$ | [Value] | - |
-| **Frontal Area** | $A$ | [Value] | $m^2$ |
+| **Vehicle Mass** | $m$ | $1000$ | $kg$ |
+| **Air Density** | $\rho$ | $1.225$ | $kg/m^3$ |
+| **Drag Coefficient** | $C_{d}$ | $0.15$ | - |
+| **Frontal Area** | $A$ | $2.2$ | $m^2$ |
 | **Gravitational Constant** | $g$ | $9.81$ | $m/s^2$ |
-| **Road Incline** | $\theta$ | [Value] | $deg$ |
+| **Road Incline** | $\theta$ | $0$ | $deg$ |
