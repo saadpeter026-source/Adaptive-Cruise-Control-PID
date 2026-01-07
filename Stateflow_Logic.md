@@ -28,7 +28,7 @@ The following table defines the specific input values used to trigger state tran
 
 ### Brake Signal Mapping
 
-The brake input acts as a high-priority safety override for the entire ACC system.
+The brake input acts as a high-priority safety override or emergency brake for the entire ACC system.
 
 | Value | Meaning | System Behavior |
 | :---: | :--- | :--- |
