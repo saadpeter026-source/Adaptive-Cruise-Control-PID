@@ -18,3 +18,6 @@ Giving us a full vehicle Dynamic equation for the model system
 $$m \cdot a = u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta))$$
 Acceleration equation
 $$a = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
+
+## Simulink Implementation
+<img width="1326" height="664" alt="image" src="https://github.com/user-attachments/assets/30e6541e-d27c-4e32-b107-10d07ec1b5cd" />
