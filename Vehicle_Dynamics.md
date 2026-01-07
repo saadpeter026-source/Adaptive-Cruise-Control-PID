@@ -10,4 +10,4 @@
 * $W$ : Vehicle Weight ($m \cdot g$)
 
 ## Mathematical Equation
-$$\sum F = u - F_{drag} - F_{g}$$ $\rightarrow$  $$ma = u - F_{drag} - F_{g}$$
+$$\sum F = u - F_{drag} - F_{g}$$  $$ma = u - F_{drag} - F_{g}$$
