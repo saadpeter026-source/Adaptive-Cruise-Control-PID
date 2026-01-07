@@ -1,1 +1,4 @@
 # Subsystem 3 (Plant/Ego Vehicle)
+
+<img width="839" height="597" alt="image" src="https://github.com/user-attachments/assets/701d0c10-7d95-4786-90ed-1b0df4345c1f" />
+
