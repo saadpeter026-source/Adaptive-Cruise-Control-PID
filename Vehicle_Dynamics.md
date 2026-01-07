@@ -11,3 +11,4 @@
 
 ## Mathematical Equation
 $$\sum F = u - F_{drag} - F_{g}$$  $$ma = u - F_{drag} - F_{g}$$
+$$u = \text{Control Input Force}$$
