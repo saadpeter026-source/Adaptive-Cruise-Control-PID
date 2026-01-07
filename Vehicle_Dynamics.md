@@ -39,3 +39,16 @@ $$a = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
 
 ## Simulink Implementation
 <img width="1326" height="664" alt="image" src="https://github.com/user-attachments/assets/30e6541e-d27c-4e32-b107-10d07ec1b5cd" />
+
+### Model Parameters
+
+The following physical values are used in the Simulink plant model to define the ego vehicle's characteristics:
+
+| Parameter | Symbol | Value | Unit |
+| :--- | :---: | :---: | :---: |
+| **Vehicle Mass** | $m$ | [Value] | $kg$ |
+| **Air Density** | $\rho$ | [Value] | $kg/m^3$ |
+| **Drag Coefficient** | $C_{d}$ | [Value] | - |
+| **Frontal Area** | $A$ | [Value] | $m^2$ |
+| **Gravitational Constant** | $g$ | $9.81$ | $m/s^2$ |
+| **Road Incline** | $\theta$ | [Value] | $deg$ |
