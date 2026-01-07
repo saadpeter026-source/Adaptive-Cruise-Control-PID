@@ -14,3 +14,5 @@ $$\sum F = u - F_{drag} - F_{g}$$  $$ma = u - F_{drag} - F_{g}$$
 Where $$u = \text{Control Input Force}$$
 $$F_{drag} = k \cdot v^2$$
 $$F_{g} = m \cdot g \cdot \sin(\theta)$$
+Giving us a full vehcail Dymaiic equation for the modeld subsystem
+$$m \cdot a = u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta))$$
