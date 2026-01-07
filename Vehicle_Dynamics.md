@@ -12,3 +12,5 @@
 ## Mathematical Equation
 $$\sum F = u - F_{drag} - F_{g}$$  $$ma = u - F_{drag} - F_{g}$$
 Where $$u = \text{Control Input Force}$$
+$$F_{drag} = k \cdot v^2$$
+$$F_{g} = m \cdot g \cdot \sin(\theta)$$
