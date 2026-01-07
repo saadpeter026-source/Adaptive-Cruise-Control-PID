@@ -10,13 +10,31 @@
 * $W$ : Vehicle Weight ($m \cdot g$)
 
 ## Mathematical Equation
-$$\sum F = u - F_{drag} - F_{g}$$  $$ma = u - F_{drag} - F_{g}$$
-Where $$u = \text{Control Input Force}$$
-$$F_{drag} = k \cdot v^2$$
-$$F_{g} = m \cdot g \cdot \sin(\theta)$$
-Giving us a full vehicle Dynamic equation for the model system
+
+The longitudinal motion of the vehicle is governed by Newton's Second Law, which states that the sum of forces equals mass times acceleration.
+
+$$\sum F = u - F_{drag} - F_{g}$$
+$$ma = u - F_{drag} - F_{g}$$
+
+**Where:**
+* $u$ : Control Input Force (Engine Force)
+* $F_{drag} = k \cdot v^2$ : Aerodynamic Drag
+* $F_{g} = m \cdot g \cdot \sin(\theta)$ : Force due to road grade (gravity)
+
+**The Drag Constant ($k$):**
+In this model, the constant $k$ represents the physical properties of the vehicle and environment:
+$$k = \frac{1}{2} \cdot \rho \cdot C_{d} \cdot A$$
+* $\rho$ : Air Density
+* $C_{d}$ : Drag Coefficient
+* $A$ : Frontal Surface Area
+
+---
+
+**Full Vehicle Dynamic Equation:**
 $$m \cdot a = u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta))$$
-Acceleration equation
+
+**Final Acceleration Equation:**
+This equation is implemented in the Simulink plant using the $1/m$ gain block to solve for the system's acceleration:
 $$a = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
 
 ## Simulink Implementation
