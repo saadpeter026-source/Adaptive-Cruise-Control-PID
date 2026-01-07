@@ -14,4 +14,4 @@ F_N: Normal Force
 W: Vehicle Weight (m * g)
 
 ## Mathematical Equation
-\sum F = u - F_{drag} - F_{g}$$
+$$\sum F = u - F_{drag} - F_{g}$$
