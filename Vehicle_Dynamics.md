@@ -16,5 +16,5 @@ $$F_{drag} = k \cdot v^2$$
 $$F_{g} = m \cdot g \cdot \sin(\theta)$$
 Giving us a full vehicle Dynamic equation for the model system
 $$m \cdot a = u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta))$$
-Acceelraiton Equaiton
+Acceleration equation
 $$a = \frac{\sum F}{m} = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
