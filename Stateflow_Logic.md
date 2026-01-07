@@ -1,6 +1,8 @@
 # Subsystem 1: Stateflow Logic:
 <img width="1325" height="849" alt="image" src="https://github.com/user-attachments/assets/efbbe2d8-0747-4357-8e1a-e1225c5c8a32" />
 
+## Overview
+
 ### State Descriptions
 
 | State / Logic | Description |
