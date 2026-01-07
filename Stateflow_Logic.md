@@ -3,6 +3,7 @@
 
 ## State Descriptions
 SET: This state initializes the system by setting the target_speed and stored_speed to 30 units while capturing the current vehicle velocity in memory.
+
 Accelerate (Accel): While the button (btn == 2) is held, the system performs a "During" action to increase the target_speed by 0.05 units per time step.
 
 Decelerate (Deccel): While the button (btn == 3) is held, the system performs a "During" action to reduce the target_speed by 0.05 units per time step.
