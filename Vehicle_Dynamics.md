@@ -4,7 +4,11 @@
 
 ## Physical Representation (FBD)
 u: Engine Force (Control Input)
+
 F_drag: Aerodynamic Drag
+
 F_g: Force due to road grade (gravity)
+
 F_N: Normal Force
+
 W: Vehicle Weight (m * g)
