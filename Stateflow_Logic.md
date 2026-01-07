@@ -26,3 +26,11 @@ The following table defines the specific input values used to trigger state tran
 | $3$ | **Decelerate** | Triggers the **Decel** state to decrement the `target_speed`. |
 | $4$ | **Resume** | Transitions to the **Resume** state to restore the previously `stored_speed`. |
 
+### Brake Signal Mapping
+
+The brake input acts as a high-priority safety override for the entire ACC system.
+
+| Value | Meaning | System Behavior |
+| :---: | :--- | :--- |
+| $0$ | **Brake Released** | System is allowed to operate in **ON\_MODE**. |
+| $1$ | **Brake Pressed** | Forces an immediate transition to the **OFF** state. |
