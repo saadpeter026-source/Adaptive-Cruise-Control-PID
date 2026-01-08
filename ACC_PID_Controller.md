@@ -26,3 +26,5 @@ $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 
 ## Overview
 There are two important aspects of adaptive features in a Cruise Control system: Speed controller, Distance controller. An ego vehicle on the road must also understand how to intervene and switch conditions in a scenario in order to prevent an accident from happening. First, the ego vehicle must understand that it should activate the condition of the speed controller if the lead vehicle is farther away. Second, the ego vehicle must understand that it should switch to the spacing or distance controller if it approaches the lead vehicle too close. Essentially, it must have logic to drive at a desired set speed as long as it maintains a safe distance. 
+
+So, how can we implement this idea into mathematical equations? 
