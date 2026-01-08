@@ -54,3 +54,8 @@ $$V_{follow} = V_{lead} + K_{d} \cdot (D_{rel} - D_{des})$$
 ## Switch Logic Equation
 $$V_{target} = \min(V_{set}, V_{follow})$$
 
+## Mode Summary Table:
+| Condition | Operational Mode | Target Velocity Equation |
+| :--- | :--- | :--- |
+| $D_{rel} > D_{des}$ | **Speed Control** | $V_{target} = V_{set}$ |
+| $D_{rel} \leq D_{des}$ | **Spacing Control** | $V_{target} = V_{follow}$ |
