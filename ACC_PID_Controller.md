@@ -1,4 +1,6 @@
 # Subsystem 2: ACC and PID Controller:
+
+## Fundamentals of PID
 <img width="1138" height="654" alt="image" src="https://github.com/user-attachments/assets/7d2d4ee9-891a-46b4-9694-9c6effe59adf" />
 
 ## Overview
