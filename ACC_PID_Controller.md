@@ -39,3 +39,7 @@ $$V_{target} = V_{set}$$
 If we anyaalize the subsystem at the top, The first part of the math determines the safe distance based on the current speed of your car **$V_{ego}$** and a chosen time gap **$T_{gap}$**.
 
 $$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
+* **$D_{des}$**: The safe desired distance to maintain.
+* **$V_{ego}$**: The current velocity of the ego vehicle.
+* **$T_{gap}$**: The time gap between vehicles, set to $1.4 \text{ s}$.
+* **$D_{default}$**: The standstill distance, set to $10 \text{ m}$.
