@@ -56,6 +56,14 @@ where
 * **$V_{set}$**: The speed defined by the driver in cruising mode.
 * **$V_{follow}$**: The speed required to maintain a safe gap.
 
+## Relative Distance Equation
+$$D_{rel} = x_{lead} - x_{ego}$$
+
+where
+* **$D_{rel}$**: The relative distance between vehicles.
+* **$x_{lead}$**: The absolute position of the lead vehicle on the road.
+* **$x_{ego}$**: The absolute position of the ego vehicle on the road.
+
 ## Switch Logic Equation
 $$V_{target} = \min(V_{set}, V_{follow})$$
 
