@@ -46,3 +46,8 @@ $$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
 
 Addtionally, the velocity required to close or maintain that gap. It adjusts the speed of the lead car **$V_{lead}$** based on the distance error.
 $$V_{follow} = V_{lead} + K_{d} \cdot (D_{rel} - D_{des})$$
+
+
+
+
+
