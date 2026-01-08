@@ -32,6 +32,7 @@ So, how can we implement this idea into mathematical equations?
 ## Mathematical Representation of Speed Controller
 $$V_{target} = V_{set}$$
 
+where
 * **$V_{set}$** - The desired cruising speed defined by the driver (e.g., $30 \text{ m/s}$).
 * **$V_{target}$** - The reference speed sent to the PID controller.
 
@@ -39,6 +40,8 @@ $$V_{target} = V_{set}$$
 If we anyaalize the subsystem at the top, The first part of the math determines the safe distance based on the current speed of your car **$V_{ego}$** and a chosen time gap **$T_{gap}$**.
 
 $$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
+
+where
 * **$D_{des}$** - The safe desired distance to maintain.
 * **$V_{ego}$** - The current velocity of the ego vehicle.
 * **$T_{gap}$** - The time gap between vehicles, set to $1.4 \text{ s}$.
@@ -47,6 +50,8 @@ $$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
 Addtionally, the velocity required to close or maintain that gap. It adjusts the speed of the lead car **$V_{lead}$** based on the distance error.
 
 $$V_{follow} = V_{lead} + K_{d} \cdot (D_{rel} - D_{des})$$
+
+where
 * **$V_{target}$**: The final reference speed sent to the PID controller.
 * **$V_{set}$**: The speed defined by the driver in cruising mode.
 * **$V_{follow}$**: The speed required to maintain a safe gap.
