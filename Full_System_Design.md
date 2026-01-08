@@ -1,2 +1,2 @@
 # Adaptive Cruise Control System-Level Design
-<img width="1980" height="1083" alt="image" src="https://github.com/user-attachments/assets/81be2fa8-308e-42d2-b8fc-b9bba3a52934" />
+<img width="2050" height="781" alt="image" src="https://github.com/user-attachments/assets/8663f4ee-47ea-4bbf-b1f6-f8403d8dce74" />
