@@ -32,7 +32,7 @@ So, how can we implement this idea into mathematical equations?
 ## Mathematical Representation of Speed Controller
 $$V_{target} = V_{set}$$
 
-* **$V_{set}$**: The desired cruising speed defined by the driver (e.g., $30 \text{ m/s}$).
-* **$V_{target}$**: The reference speed sent to the PID controller.
+* **$V_{set}$** - The desired cruising speed defined by the driver (e.g., $30 \text{ m/s}$).
+* **$V_{target}$** - The reference speed sent to the PID controller.
 
 ## Mathematical Representation of Distance Controller
