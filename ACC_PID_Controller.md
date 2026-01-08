@@ -51,5 +51,6 @@ $$V_{follow} = V_{lead} + K_{d} \cdot (D_{rel} - D_{des})$$
 * **$V_{set}$**: The speed defined by the driver in cruising mode.
 * **$V_{follow}$**: The speed required to maintain a safe gap.
 
-
+## Switch Logic Equation
+$$V_{target} = \min(V_{set}, V_{follow})$$
 
