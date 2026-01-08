@@ -47,8 +47,9 @@ $$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
 Addtionally, the velocity required to close or maintain that gap. It adjusts the speed of the lead car **$V_{lead}$** based on the distance error.
 
 $$V_{follow} = V_{lead} + K_{d} \cdot (D_{rel} - D_{des})$$
-
-
+* **$V_{target}$**: The final reference speed sent to the PID controller.
+* **$V_{set}$**: The speed defined by the driver in cruising mode.
+* **$V_{follow}$**: The speed required to maintain a safe gap.
 
 
 
