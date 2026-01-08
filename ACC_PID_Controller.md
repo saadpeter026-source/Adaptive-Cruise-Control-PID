@@ -11,6 +11,8 @@
 * **Derivative (D):**
   $$D = K_d \frac{de(t)}{dt}$$
 
+## Full PID Control Law Equation
+$$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 
 
 
