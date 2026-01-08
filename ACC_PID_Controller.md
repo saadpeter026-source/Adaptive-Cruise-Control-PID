@@ -37,3 +37,5 @@ $$V_{target} = V_{set}$$
 
 ## Mathematical Representation of Distance Controller
 If we anyaalize the subsystem at the top, The first part of the math determines the safe distance based on the current speed of your car **$V_{ego}$** and a chosen time gap **$T_{gap}$**.
+
+$$D_{des} = V_{ego} \cdot T_{gap} + D_{default}$$
