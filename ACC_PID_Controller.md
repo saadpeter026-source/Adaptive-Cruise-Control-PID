@@ -36,4 +36,4 @@ $$V_{target} = V_{set}$$
 * **$V_{target}$** - The reference speed sent to the PID controller.
 
 ## Mathematical Representation of Distance Controller
-If we anyaalize the subsystem at the top, The first part of the math determines the safe distance based on the current speed of your car * **$V_{ego}$** and a chosen time gap * **$T_{gap}$**.
+If we anyaalize the subsystem at the top, The first part of the math determines the safe distance based on the current speed of your car **$V_{ego}$** and a chosen time gap **$T_{gap}$**.
