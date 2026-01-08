@@ -21,14 +21,6 @@ In this system-level design, we will not be utilizing the other fundamental cont
 ## Full PID Control Law Equation
 $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 
-
-
-
-
-
-
-
-
-
+## ACC Subsystem
 <img width="1321" height="673" alt="image" src="https://github.com/user-attachments/assets/cccc1d7c-84e3-4a40-93c9-e212195028a4" /> 
 
