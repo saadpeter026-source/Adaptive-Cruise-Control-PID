@@ -4,9 +4,15 @@
 In this final section, we will discuss three types of scenarios in an ACC system and test it to ensure that the system is functioning properly.
 
 ### 1. Performance Benchmarking
-* Testing with documentation conditions where $V_{set} = 30$ m/s.
-* Confirms the PID tuning is accurate for following a lead vehicle.
-*  Demonstrates the system handling non-linear drag while maintaining a safe distance.
+* Testing with documentation conditions where
+* $t_{gap} = 1.4$ : Time gap (s)
+* $D_{default} = 10$ : Default spacing (m)
+* $x0_{lead} = 50$ : Initial position for lead car (m)
+* $v0_{lead} = 25$ : Initial velocity for lead car (m/s)
+* $x0_{ego} = 10$ : Initial position for ego car (m)
+* $v0_{ego} = 20$ : Initial velocity for ego car (m/s)
+* $a_{min\_ego} = -3$ : Minimum acceleration (m/s²)
+* $a_{max\_ego} = 2$ : Maximum acceleration (m/s²)
 
 ### 2. High-Speed Highway Test
 * Increasing speed to highway levels (e.g., $V = 40$ m/s).
