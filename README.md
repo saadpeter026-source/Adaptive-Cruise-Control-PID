@@ -7,10 +7,11 @@ In this project, we will analyze the implementation of Adaptive Cruise Control (
 
 ## References
 
-## References
-
 * **[1] MathWorks Documentation**: [Adaptive Cruise Control Using Model Predictive Controller](https://www.mathworks.com/help/mpc/ug/adaptive-cruise-control-using-model-predictive-controller.html)  
-  *Used for understanding system-level design and ACC logic.*
+  *Used for researching ACC logic and system-level design.*
 
 * **[2] MATLAB YouTube Series**: [Understanding PID Control](https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)  
-  *Used for research on Proportional, Integral, and Derivative gains.*
+  *Used for researching PID gains and control theory.*
+
+* **[3] MathWorks Documentation**: [Get Started with Stateflow](https://www.mathworks.com/help/stateflow/gs/get-started-create-chart.html)  
+  *Used for researching logic flows and state transitions.*
