@@ -21,6 +21,22 @@ In this system-level design, we will not be utilizing the other fundamental cont
 ## Full PID Control Law Equation
 $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 
+$$
+\begin{array}{|l|c|c|}
+\hline
+\textbf{Controller Parameter} & \textbf{Symbol} & \textbf{Value} \\
+\hline
+\text{Proportional Gain} & K_p & 370 \\
+\hline
+\text{Integral Gain} & K_i & 3 \\
+\hline
+\text{Derivative Gain} & K_d & -340 \\
+\hline
+\text{Filter Coefficient} & N & 6 \\
+\hline
+\end{array}
+$$
+
 ## ACC Subsystem
 <img width="1321" height="673" alt="image" src="https://github.com/user-attachments/assets/cccc1d7c-84e3-4a40-93c9-e212195028a4" /> 
 
