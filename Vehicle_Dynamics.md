@@ -38,7 +38,7 @@ This equation is implemented in the Simulink plant using the $1/m$ gain block to
 $$a = \frac{1}{m} (u - (k \cdot v^2) - (m \cdot g \cdot \sin(\theta)))$$
 
 ## Simulink Implementation
-<img width="1326" height="664" alt="image" src="https://github.com/user-attachments/assets/30e6541e-d27c-4e32-b107-10d07ec1b5cd" />
+<img width="1408" height="891" alt="image" src="https://github.com/user-attachments/assets/29652ea1-50eb-4926-b70d-7a4edbf0a109" />
 
 ### Model Parameters
 
