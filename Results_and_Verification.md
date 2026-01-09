@@ -79,3 +79,15 @@ Table 4: Parameters for High-Speed Highway Testing
 | Minimum Acceleration | $a_{min\_ego}$ | $-3$ | $m/s^2$ |
 | Maximum Acceleration | $a_{max\_ego}$ | $2$ | $m/s^2$ |
 | Road Grade/Hill | $\theta$ | $5$ | $degrees$ |
+
+&nbsp;
+
+<center>
+    <p><b>Table 7: 5 Degree Incline Testing of system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
+</center>
+<img width="1886" height="1130" alt="image" src="https://github.com/user-attachments/assets/750122da-4dcd-4ae8-801b-e54968563122" />
+
+<img width="1837" height="1141" alt="image" src="https://github.com/user-attachments/assets/3e0f46bd-c4cc-4936-b7cc-a5b7d3da850d" />
+
+<img width="1864" height="1142" alt="image" src="https://github.com/user-attachments/assets/753a538b-c932-4a4e-ad87-7eb5ceb7945d" />
+
