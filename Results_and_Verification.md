@@ -19,4 +19,9 @@ In this final section, we will discuss three types of scenarios in an ACC system
 
 <img width="1841" height="1142" alt="image" src="https://github.com/user-attachments/assets/df26832d-2be9-470f-ae27-490a4b3a6388" />
 
+<img width="1886" height="1134" alt="image" src="https://github.com/user-attachments/assets/69134f2e-9f16-4cd4-ada5-689478335e71" />
+
+
+<img width="1848" height="1138" alt="image" src="https://github.com/user-attachments/assets/f5112c47-5c88-46b0-9779-2ec21713dd46" />
+
 
