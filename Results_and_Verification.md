@@ -17,4 +17,6 @@ In this final section, we will discuss three types of scenarios in an ACC system
 | Minimum Acceleration | $a_{min\_ego}$ | $-3$ | $m/s^2$ |
 | Maximum Acceleration | $a_{max\_ego}$ | $2$ | $m/s^2$ |
 
+<img width="1841" height="1142" alt="image" src="https://github.com/user-attachments/assets/df26832d-2be9-470f-ae27-490a4b3a6388" />
+
 
