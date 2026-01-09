@@ -2,8 +2,8 @@
 In this final section, we will discuss three types of scenarios in an ACC system and test it to ensure that the system is functioning properly.
 
 ## 1. Performance Benchmarking
-* Testing with documentation conditions where
 
+Tables 1" Parameters of MATLAB documentation
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
 | Time Gap | $t_{gap}$ | $1.4$ | $s$ |
