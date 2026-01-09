@@ -39,7 +39,7 @@ Table 1: Parameters of MATLAB documentation
 (Soon...)
 
 ## 2. High-Speed Highway Testing
-Table 3: Parameters for High-Speed Highway Testing
+Table 4: Parameters for High-Speed Highway Testing
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
 | Time Gap | $t_{gap}$ | $1.4$ | $s$ |
@@ -54,7 +54,7 @@ Table 3: Parameters for High-Speed Highway Testing
 &nbsp;
 
 <center>
-    <p><b>Table 3: Highway Testing Results from system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
+    <p><b>Table 5: Highway Testing Results from system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
 </center>
 
 <img width="1863" height="1132" alt="image" src="https://github.com/user-attachments/assets/3bd4e6ee-fd1f-492b-8429-6df91176fa58" />
