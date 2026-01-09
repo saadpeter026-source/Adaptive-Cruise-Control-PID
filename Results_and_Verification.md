@@ -51,6 +51,8 @@ Table 3: Parameters for High-Speed Highway Testing
 | Minimum Acceleration | $a_{min\_ego}$ | $-3$ | $m/s^2$ |
 | Maximum Acceleration | $a_{max\_ego}$ | $2$ | $m/s^2$ |
 
+&nbsp;
+
 <center>
     <p><b>Table 3: Highway Testing Results from system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
 </center>
