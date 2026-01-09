@@ -20,6 +20,8 @@ Table 1: Parameters of MATLAB documentation
   <img width="1138" height="1044" alt="image" src="https://github.com/user-attachments/assets/6b35d02d-e94e-4c8d-abf2-ae1d4600e274" />
 </center>
 
+&nbsp;
+
 Table 3: Results from Testing system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead
 <img width="1841" height="1142" alt="image" src="https://github.com/user-attachments/assets/df26832d-2be9-470f-ae27-490a4b3a6388" />
 
