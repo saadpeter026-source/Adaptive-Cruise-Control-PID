@@ -66,6 +66,7 @@ Table 4: Parameters for High-Speed Highway Testing
 ### Discussion 
 (Soon...)
 
+## 3. ACC Performance on a 5° Incline
 ## Table 6: Parameters of MATLAB documentation
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
