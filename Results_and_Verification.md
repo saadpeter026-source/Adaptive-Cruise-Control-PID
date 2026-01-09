@@ -5,6 +5,7 @@ In this final section, we will discuss three types of scenarios in an ACC system
 
 ### 1. Performance Benchmarking
 * Testing with documentation conditions where
+
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
 | Time Gap | $t_{gap}$ | $1.4$ | $s$ |
