@@ -3,7 +3,7 @@
 ## Results and Discussion
 In this final section, we will discuss three types of scenarios in an ACC system and test it to ensure that the system is functioning properly.
 
-### 1. Performance Benchmarking
+## 1. Performance Benchmarking
 * Testing with documentation conditions where
 
 | Parameter | Symbol | Value | Unit |
