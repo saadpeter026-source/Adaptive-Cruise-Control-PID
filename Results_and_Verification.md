@@ -13,7 +13,7 @@ In this final seciton, we will discuss 3 types of scenarios in a ACC system, and
 * This helps us see how aerodynamic drag affects the controller at higher velocities.
 * We observe if the PID can still maintain the safety gap when air resistance is high.
 
-Road Grade Disturbance (The Hill)
+3. Road Grade Disturbance (The Hill)
 * We place the ego vehicle on a hill while the lead car stays on flat ground.
 * This tests how well the controller handles gravity pulling the car backward.
 * We prove the Integral (I) term works to add extra throttle to stay at the correct distance.
