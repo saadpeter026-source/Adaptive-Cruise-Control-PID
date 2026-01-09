@@ -15,6 +15,8 @@ Table 1: Parameters of MATLAB documentation
 | Minimum Acceleration | $a_{min\_ego}$ | $-3$ | $m/s^2$ |
 | Maximum Acceleration | $a_{max\_ego}$ | $2$ | $m/s^2$ |
 
+&nbsp;
+
 <center>
     <p><b>Table 2: Matlab documentation Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
   <img width="1138" height="1044" alt="image" src="https://github.com/user-attachments/assets/6b35d02d-e94e-4c8d-abf2-ae1d4600e274" />
