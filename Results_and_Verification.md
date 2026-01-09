@@ -1,26 +1,26 @@
 # Comparing PID and MPC for Cruise Control
 
-\section*{Results and Discussion Overview}
+## Results and Discussion Overview
+In this final section, we will discuss 3 types of scenarios in an ACC system, and test it to ensure that the system is working. 
 
-In this final section, we will discuss three types of scenarios in an Adaptive Cruise Control (ACC) system and test them to ensure that the system is working as expected.
+### 1. Performance Benchmarking
+* **Scenario**: Testing with documentation conditions where $V_{set} = 30$ m/s.
+* **Purpose**: Confirms the PID tuning is accurate for following a lead vehicle.
+* **Physics**: Demonstrates the system handling non-linear drag while maintaining a safe distance.
 
-\subsection*{1. Performance Benchmarking}
-\begin{itemize}
-    \item We test the system using the same conditions as the Matlab documentation where $V_{set} = 30 \text{ m/s}$.
-    \item This confirms our PID tuning is correct and can follow a lead vehicle accurately.
-    \item It shows the car handles non-linear drag while keeping a safe distance.
-\end{itemize}
+### 2. High-Speed Highway Test
+* **Scenario**: Increasing speed to highway levels (e.g., $V = 40$ m/s).
+* **Purpose**: Evaluates the controller under high-stress conditions.
+* **Physics**: Observes how aerodynamic drag ($F_{drag}$) affects the PID's ability to maintain a gap at high velocities.
 
-\subsection*{2. High-Speed Highway Test}
-\begin{itemize}
-    \item We increase the speed to highway levels (e.g., $40 \text{ m/s}$) to test the car under more stress.
-    \item This helps us see how aerodynamic drag affects the controller at higher velocities.
-    \item We observe if the PID can still maintain the safety gap when air resistance is high.
-\end{itemize}
+### 3. Road Grade Disturbance (The Hill)
+* **Scenario**: Driving the ego vehicle on a hill while the lead car is on flat ground.
+* **Purpose**: Tests **Disturbance Rejection** against gravity.
+* **Physics**: Proves the Integral ($I$) term compensates for $F_{g}$ to keep the car at the correct distance.
 
-\subsection*{3. Road Grade Disturbance (The Hill)}
-\begin{itemize}
-    \item We place the ego vehicle on a hill while the lead car stays on flat ground.
-    \item This tests how well the controller handles gravity pulling the car backward.
-    \item We prove the Integral ($I$) term works to add extra throttle to stay at the correct distance.
-\end{itemize}
+
+
+### 4. User Intent: Traditional Cruise Toggle
+* **Scenario**: Using a manual switch to bypass the ACC logic.
+* **Purpose**: Allows the user to switch from "Safe Distance" to "Fixed Speed" mode.
+* **Physics**: The PID ignores the lead vehicle signal and focuses purely on $V_{set}$.
