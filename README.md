@@ -5,4 +5,8 @@ In this project, we will analyze the implementation of Adaptive Cruise Control (
 ## High-Level Control Diagram.
 <img width="963" height="431" alt="image" src="https://github.com/user-attachments/assets/838e9d98-fc8f-45b4-a922-59ee1013a75f" />
 
-## Reference
+## References
+
+* [1] MATLAB Documentation. "Adaptive Cruise Control System Using PID Controller." [Link](https://www.mathworks.com/help/control/ug/adaptive-cruise-control-system-using-pid-controller.html)
+* [2] MathWorks. "Trigonometric Function Block Reference." [Link](https://www.mathworks.com/help/simulink/slref/trigonometricfunction.html)
+* [3] MathWorks. "PID Controller Block Reference." [Link](https://www.mathworks.com/help/simulink/slref/pidcontroller.html)
