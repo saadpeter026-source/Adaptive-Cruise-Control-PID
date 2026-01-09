@@ -24,8 +24,6 @@ Table 1: Parameters of MATLAB documentation
 
 &nbsp;
 
-Table 3: Results from Testing system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead
-
 <center>
     <p><b>Table 3: Results from Testing system-level Design ACC Acceleration, Velocity, and Distance Graphs of Ego and Lead</b></p>
 </center>
