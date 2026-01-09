@@ -1,7 +1,7 @@
 # Comparing PID and MPC for Cruise Control
 
 ## Results and Discussion Overview
-In this final section, we will discuss 3 types of scenarios in an ACC system, and test it to ensure that the system is working. 
+In this final section, we will discuss three types of scenarios in an ACC system and test it to ensure that the system is functioning properly.
 
 ### 1. Performance Benchmarking
 * **Scenario**: Testing with documentation conditions where $V_{set} = 30$ m/s.
