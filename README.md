@@ -7,6 +7,10 @@ In this project, we will analyze the implementation of Adaptive Cruise Control (
 
 ## References
 
-* [1] MATLAB Documentation. "Adaptive Cruise Control System Using PID Controller." [Link](https://www.mathworks.com/help/control/ug/adaptive-cruise-control-system-using-pid-controller.html)
-* [2] MathWorks. "Trigonometric Function Block Reference." [Link](https://www.mathworks.com/help/simulink/slref/trigonometricfunction.html)
-* [3] MathWorks. "PID Controller Block Reference." [Link](https://www.mathworks.com/help/simulink/slref/pidcontroller.html)
+## References
+
+* **[1] MathWorks Documentation**: [Adaptive Cruise Control Using Model Predictive Controller](https://www.mathworks.com/help/mpc/ug/adaptive-cruise-control-using-model-predictive-controller.html)  
+  *Used for understanding system-level design and ACC logic.*
+
+* **[2] MATLAB YouTube Series**: [Understanding PID Control](https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)  
+  *Used for research on Proportional, Integral, and Derivative gains.*
