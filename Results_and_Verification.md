@@ -78,4 +78,4 @@ Table 4: Parameters for High-Speed Highway Testing
 | Ego Initial Velocity | $v0_{ego}$ | $20$ | $m/s$ |
 | Minimum Acceleration | $a_{min\_ego}$ | $-3$ | $m/s^2$ |
 | Maximum Acceleration | $a_{max\_ego}$ | $2$ | $m/s^2$ |
-| Road Grade | $\theta$ | $5$ | $degrees$ |
+| Road Grade/Hill | $\theta$ | $5$ | $degrees$ |
