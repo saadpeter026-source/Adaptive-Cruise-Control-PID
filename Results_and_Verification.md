@@ -21,7 +21,6 @@ Table 1: Parameters of MATLAB documentation
 </center>
 
 
-< ### Velocity vs Time >
 <img width="1841" height="1142" alt="image" src="https://github.com/user-attachments/assets/df26832d-2be9-470f-ae27-490a4b3a6388" />
 
 <img width="1886" height="1134" alt="image" src="https://github.com/user-attachments/assets/69134f2e-9f16-4cd4-ada5-689478335e71" />
