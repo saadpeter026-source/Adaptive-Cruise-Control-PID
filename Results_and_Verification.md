@@ -67,7 +67,7 @@ Table 4: Parameters for High-Speed Highway Testing
 (Soon...)
 
 ## 3. ACC Performance on a 5° Incline
-## Table 6: Parameters of MATLAB documentation
+### Table 6: Parameters of MATLAB documentation
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
 | Time Gap | $t_{gap}$ | $1.4$ | $s$ |
