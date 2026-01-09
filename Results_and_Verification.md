@@ -4,19 +4,19 @@
 In this final section, we will discuss three types of scenarios in an ACC system and test it to ensure that the system is functioning properly.
 
 ### 1. Performance Benchmarking
-* **Scenario**: Testing with documentation conditions where $V_{set} = 30$ m/s.
-* **Purpose**: Confirms the PID tuning is accurate for following a lead vehicle.
-* **Physics**: Demonstrates the system handling non-linear drag while maintaining a safe distance.
+* Testing with documentation conditions where $V_{set} = 30$ m/s.
+* Confirms the PID tuning is accurate for following a lead vehicle.
+*  Demonstrates the system handling non-linear drag while maintaining a safe distance.
 
 ### 2. High-Speed Highway Test
-* **Scenario**: Increasing speed to highway levels (e.g., $V = 40$ m/s).
-* **Purpose**: Evaluates the controller under high-stress conditions.
-* **Physics**: Observes how aerodynamic drag ($F_{drag}$) affects the PID's ability to maintain a gap at high velocities.
+* Increasing speed to highway levels (e.g., $V = 40$ m/s).
+* Evaluates the controller under high-stress conditions.
+* Observes how aerodynamic drag ($F_{drag}$) affects the PID's ability to maintain a gap at high velocities.
 
 ### 3. Road Grade Disturbance (The Hill)
-* **Scenario**: Driving the ego vehicle on a hill while the lead car is on flat ground.
-* **Purpose**: Tests **Disturbance Rejection** against gravity.
-* **Physics**: Proves the Integral ($I$) term compensates for $F_{g}$ to keep the car at the correct distance.
+* Driving the ego vehicle on a hill while the lead car is on flat ground.
+* Tests **Disturbance Rejection** against gravity.
+* Proves the Integral ($I$) term compensates for $F_{g}$ to keep the car at the correct distance.
 
 
 
