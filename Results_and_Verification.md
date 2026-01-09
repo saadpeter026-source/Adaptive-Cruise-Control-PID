@@ -3,7 +3,7 @@ In this final section, we will discuss three types of scenarios in an ACC system
 
 ## 1. Performance Benchmarking
 
-Tables 1" Parameters of MATLAB documentation
+Tables 1: Parameters of MATLAB documentation
 | Parameter | Symbol | Value | Unit |
 | :--- | :--- | :--- | :--- |
 | Time Gap | $t_{gap}$ | $1.4$ | $s$ |
